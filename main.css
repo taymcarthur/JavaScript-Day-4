@@ -1,0 +1,36 @@
+.calculator {
+	width: 140px;
+	margin: auto;
+}
+
+
+#clear {
+	display: flex;
+}
+
+.answerScreen {
+	width: 75%;
+	height: 28px;
+	line-height: 30px;
+	background: #3EBB4E;
+	color: white;
+	border: 1px solid white;
+}
+
+.button {
+	width: 25%;
+	height: 30px;
+	background: #3EBB4E;
+	color: white;
+	outline: none;
+	float: left;
+	border-right: 1px solid white;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: none;
+}
+
+.button:hover {
+	background: #6BC873;
+}
+
